@@ -1,0 +1,1 @@
+<script lang="ts">export let text="";</script><div class="card p-4 bg-gradient-to-r from-purple-50 to-cyan-50"><p class="text-ai font-semibold">AI Insight</p><p>{text}</p></div>

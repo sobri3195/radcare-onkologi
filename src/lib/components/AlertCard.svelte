@@ -1,0 +1,1 @@
+<script lang="ts">export let alert:any;</script><div class="card p-4 border-l-4 border-red-400"><p class="font-semibold">{alert.message}</p></div>

@@ -1,0 +1,1 @@
+export const dummyEducation=['Apa itu radioterapi?','Persiapan sebelum radioterapi','Efek samping radioterapi','Perawatan kulit selama radioterapi','Nutrisi pasien kanker','Kapan harus menghubungi dokter?','Panduan pasien kanker serviks','Panduan pasien kanker payudara','Panduan pasien kepala-leher','Panduan pasien kanker paru'];

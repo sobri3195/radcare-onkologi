@@ -1,0 +1,1 @@
+<nav class="sticky top-0 z-40 glass border-b border-slate-100"><div class="max-w-6xl mx-auto p-4 flex justify-between"><a href="/" class="font-bold text-medical">RADCARE NUSANTARA</a><div class="hidden md:flex gap-4 text-sm"><a href="/fitur">Fitur</a><a href="/harga">Harga</a><a href="/login" class="px-3 py-1 rounded-xl bg-medical text-white">Masuk</a></div></div></nav>

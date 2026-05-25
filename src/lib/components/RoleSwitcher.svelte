@@ -1,0 +1,1 @@
+<script lang="ts">import {selectedRole} from "$lib/stores/app";const roles=["patient","family","doctor","physicist","therapist","nurse","admin","manager"];</script><select bind:value={$selectedRole} class="border rounded-xl p-2">{#each roles as r}<option value={r}>{r}</option>{/each}</select>

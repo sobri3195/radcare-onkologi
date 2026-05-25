@@ -1,0 +1,1 @@
+<script lang="ts">import DashboardShell from '$lib/components/DashboardShell.svelte';</script><DashboardShell><div slot='nav' class='space-y-2 text-sm'><a href='/dashboard'>Command Center</a><a href='/dashboard/pasien'>Pasien</a><a href='/dashboard/alerts'>Alerts</a><a href='/dashboard/workflow'>Workflow</a></div><slot/></DashboardShell>

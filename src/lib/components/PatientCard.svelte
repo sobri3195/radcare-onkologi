@@ -1,0 +1,1 @@
+<script lang="ts">export let patient:any;</script><div class="card p-4"><p class="font-semibold">{patient.name}</p><p class="text-sm">{patient.diagnosis} {patient.stage}</p></div>

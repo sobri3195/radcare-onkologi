@@ -1,0 +1,1 @@
+<script lang="ts">export let label="";export let value=0;</script><label class="block"><span>{label}: {value}</span><input type="range" min="0" max="10" bind:value class="w-full"/></label>

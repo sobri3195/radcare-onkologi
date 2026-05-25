@@ -1,0 +1,1 @@
+<aside class="hidden md:block w-64 p-4 border-r min-h-screen"><slot /></aside>

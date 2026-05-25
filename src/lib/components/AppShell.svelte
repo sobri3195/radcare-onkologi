@@ -1,0 +1,1 @@
+<script lang="ts">import BottomNav from "./BottomNav.svelte";</script><main class="max-w-md mx-auto p-4 pb-20"><slot/></main><BottomNav/>
