@@ -1,0 +1,1 @@
+<script lang="ts">export let title="";</script><div class="card p-3 text-sm">{title}</div>

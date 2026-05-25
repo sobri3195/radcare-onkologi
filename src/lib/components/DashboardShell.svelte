@@ -1,0 +1,1 @@
+<script lang="ts">import Sidebar from "./Sidebar.svelte";</script><div class="md:flex"><Sidebar><slot name="nav"/></Sidebar><main class="flex-1 p-4"><slot/></main></div>

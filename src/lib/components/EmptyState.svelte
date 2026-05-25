@@ -1,0 +1,1 @@
+<script lang="ts">export let text="Data kosong";</script><div class="card p-6 text-center text-slate-500">{text}</div>

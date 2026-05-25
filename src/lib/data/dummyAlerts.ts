@@ -1,0 +1,1 @@
+export const dummyAlerts=[{id:'a1',patientId:'p4',level:'red',message:'Sesak tinggi, perlu follow-up',reviewed:false},{id:'a2',patientId:'p7',level:'amber',message:'Dermatitis meningkat',reviewed:false}];

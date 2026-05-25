@@ -1,0 +1,1 @@
+<script lang="ts">export let status="Aktif";</script><span class="px-2 py-1 rounded-full text-xs bg-cyan-100">{status}</span>

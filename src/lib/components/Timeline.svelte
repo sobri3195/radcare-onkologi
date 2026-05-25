@@ -1,0 +1,1 @@
+<script lang="ts">export let items:string[]=[];</script><ol class="space-y-2">{#each items as i}<li class="card p-3">{i}</li>{/each}</ol>

@@ -1,0 +1,1 @@
+<script lang="ts">export let sender="pasien";export let text="";</script><div class="my-2 {sender==="pasien"?"text-right":""}"><span class="inline-block px-3 py-2 rounded-2xl bg-slate-100">{text}</span></div>

@@ -1,0 +1,1 @@
+<script lang="ts">export let level="sedang";</script><span class="px-2 py-1 rounded-full text-xs bg-amber-100">{level}</span>

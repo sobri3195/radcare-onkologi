@@ -1,0 +1,1 @@
+<script lang="ts">export let current=0;export let total=1;</script><div class="card p-4"><p>Progress Fraksi {current}/{total}</p><div class="h-2 bg-slate-100 rounded"><div class="h-2 bg-medical rounded" style="width:{(current/total)*100}%"></div></div></div>

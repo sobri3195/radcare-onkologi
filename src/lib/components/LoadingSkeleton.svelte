@@ -1,0 +1,1 @@
+<div class="animate-pulse space-y-2"> <div class="h-4 bg-slate-200 rounded"></div><div class="h-4 bg-slate-200 rounded w-2/3"></div></div>

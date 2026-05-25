@@ -1,0 +1,1 @@
+<footer class="mt-16 border-t p-8 text-sm text-slate-500">© 2026 RADCARE NUSANTARA · Smart Radiotherapy Care</footer>

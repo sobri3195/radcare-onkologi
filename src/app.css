@@ -1,0 +1,4 @@
+@tailwind base;@tailwind components;@tailwind utilities;
+body{font-family:Inter,system-ui,sans-serif}
+.glass{background:rgba(255,255,255,.75);backdrop-filter:blur(12px)}
+.card{@apply rounded-2xl shadow-soft border border-slate-100 bg-white;}

@@ -1,0 +1,1 @@
+<nav class="fixed bottom-0 inset-x-0 bg-white border-t md:hidden"><div class="grid grid-cols-5 text-xs"> <a class="p-3" href="/app">Home</a><a class="p-3" href="/app/jadwal">Jadwal</a><a class="p-3" href="/app/keluhan">Keluhan</a><a class="p-3" href="/app/edukasi">Edukasi</a><a class="p-3" href="/app/profil">Profil</a></div></nav>

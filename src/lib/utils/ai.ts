@@ -1,0 +1,7 @@
+export type SymptomReport={pain:number;fatigue:number;nausea:number;vomit:number;dysphagia:number;dryMouth:number;dermatitis:number;diarrhea:number;dyspnea:number;appetite:number;weight:number;fever:boolean;bleeding:boolean;notes:string};
+export const calculateRisk=(r:SymptomReport)=>{const max=Math.max(r.pain,r.dyspnea,r.dysphagia,r.dermatitis,r.nausea+r.vomit);if(r.bleeding||r.pain>=8||r.dyspnea>=7)return 95;if(max>=7)return 75;if(max>=4)return 50;return 25;};
+export const getRiskLabel=(score:number)=>score>=90?'Red flag':score>=70?'Berat':score>=45?'Sedang':'Ringan';
+export const getRiskColor=(level:string)=>({ringan:'emerald',sedang:'amber',berat:'orange',red:'red',urgent:'red'})[level]||'slate';
+export const generateDummyAlert=(r:SymptomReport)=>{if(r.pain>=8)return 'Nyeri berat red flag';if(r.dyspnea>=7)return 'Sesak urgent';if(r.dysphagia>=7)return 'Risiko mucositis';if(r.dermatitis>=7)return 'Risiko skin toxicity';return 'Monitoring rutin';};
+export const generatePatientSummary=(p:any)=>`${p.name} diagnosis ${p.diagnosis} stadium ${p.stage}, progres fraksi ${p.currentFraction}/${p.totalFractions}.`;
+export const generateReportDraft=(i:any)=>`Laporan Radioterapi\nDiagnosis: ${i.diagnosis}\nStadium: ${i.stage}\nTarget: ${i.target}\nTeknik: ${i.technique}\nDosis/Fraksi: ${i.dose}/${i.fractions}\nEfek samping: ${i.sideEffects}\nRespons: ${i.response}\nRencana follow-up: ${i.followUp}`;
